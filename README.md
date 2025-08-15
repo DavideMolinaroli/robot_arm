@@ -1,6 +1,6 @@
 # 3-DOF Robot Arm Control (Arduino)
 
-![Demo of the 3DOF robot arm](docs/3dof_arm_slow.gif)
+![Demo of the 3DOF robot arm](docs/arm_demo_slow.gif)
 
 Single file Arduino project to control a **3-degree-of-freedom anthropomorphic arm** plus a **servo gripper**.  
 It receives **Cartesian targets** over Serial, solves **analytical inverse kinematics** onboard and commands three stepper motors via `AccelStepper`.
