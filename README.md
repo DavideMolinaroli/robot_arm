@@ -3,26 +3,7 @@
 ![Demo of the 3DOF robot arm](docs/3dof_arm_slow.gif)
 
 Single file Arduino project to control a **3-degree-of-freedom anthropomorphic arm** plus a **servo gripper**.  
-It receives **Cartesian targets** over Serial, solves **analytical inverse kinematics** onboard, and commands three stepper motors via `AccelStepper`.
-
----
-
-## Contents
-
-- [Overview](#overview)
-- [Hardware](#hardware)
-- [Pinout](#pinout)
-- [Software Setup](#software-setup)
-- [Build & Upload](#build--upload)
-- [Serial Protocol](#serial-protocol)
-- [Examples](#examples)
-- [Motion Model](#motion-model)
-- [Configuration](#configuration)
-- [Notes & Safety](#notes--safety)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-
----
+It receives **Cartesian targets** over Serial, solves **analytical inverse kinematics** onboard and commands three stepper motors via `AccelStepper`.
 
 ## Overview
 
