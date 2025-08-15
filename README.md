@@ -1,4 +1,4 @@
-# 3-DOF Robot Arm Control (Arduino)
+# 3D printed 3-DOF Robot Arm
 
 ![Demo of the 3DOF robot arm](docs/arm_demo_slow.gif)
 
@@ -20,7 +20,7 @@ It receives **Cartesian targets** over Serial, solves **analytical inverse kinem
 - **3× stepper motors** + A4988 drivers.
 - **1× servo** for the gripper.
 - **Power supply** sized for motors and servo.
-- Cables, mechanical structure, and links of lengths noted below.
+- [CAD design of the 3D printed planetary gearboxes, base and link connectors available through OnShape](https://cad.onshape.com/documents/7ce69c395a1409a2cfc972d9/w/4e6c29745636ca8a07db6948/e/61d0a1b9c1a23eb44e8f73c4).
 
 ---
 
